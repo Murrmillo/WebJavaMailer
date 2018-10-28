@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mailer</title>
+</head>
+<body>
+<form action="confirmation" method="POST">
+    Ваша почта: <input name="output" />
+    Domain: <select name="domain">
+    <option>@mail.ru</option>
+    <option>@gmail.com</option>
+    <option>@yandex.ru</option>
+    </select>
+    <br><br>
+    Ваш пароль: <input type="password"  name="password"  />
+    <br><br>
+    Адресат:  <input name="input" />
+    <br><br>
+    Тема письма: <input name="theme" />
+    <br><br>
+    Текст письма: <textarea name="message"></textarea>
+    <br><br>
+    <input type="submit" value="Отправить" />
+</form>
+</body>
+</html>
